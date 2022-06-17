@@ -13,6 +13,8 @@ module.exports = {
   },
   plugins: ['react'],
   rules: {
+    'import/no-useless-path-segments': 0,
+    'no-console': 0,
     'arrow-body-style': ['error', 'as-needed'],
     'react/function-component-definition': 0,
     'comma-dangle': 0,
